@@ -1,0 +1,56 @@
+------------------------ INPUT FILE FOR SOLUTE TRANSPORT ------------------------
+h0       = 0.0001870                      control layer depth£¨m£©
+R        =0.00002083                     rainfall intensity£¨m/s£©
+a        =     3.791                      alpha £¨m1/3¡¤s-1£©
+W0       =      0.06                      total initial sediment mass£¨kg£©
+L        =       2.0                      length of surface£¨m£©
+B        =       1.0                      width of surface£¨m£©
+kL       =     500.0                      transport coefficient upper bound £¨m-1£©
+kU       =     540.0                      transport coefficient down bound£¨m-1£©
+Dk       =       1.0                       transport coefficient step£¨m-1£©
+CFL      =      0.62                      CF  down bound
+CFU      =      0.66                       CF  upper bound 
+DCF      =      0.01                      CF step   
+b        =       1.0                      Rainfall washout coefficient
+Td       =    1860.0                      total time£¨s£©
+DT       =       0.1                     time step£¨s£©
+TPRINT   =       2.0                      output step£¨s£©
+MDATA    =        37                      Number of points measured
+------------------------ OBSERVED DATA SERIES ------------------------
+0.083333	0.23885
+0.333333	0.73907
+0.583333	1.73579
+0.833333	1.94343
+1.083333	2.17955
+1.333333	2.39211
+1.583333	2.4412 
+1.833333	2.28934
+2.083333	2.17214
+3.083333	1.61037
+4.083333	1.22618
+5.083333	0.92628
+6.083333	0.80428
+7.083333	0.73251
+8.083333	0.39347
+9.083333	0.46044
+10.08333	0.39944
+11.08333	0.42571
+12.08333	0.4018 
+13.08333	0.27029
+14.08333	0.24595
+15.08333	0.169  
+16.08333	0.11947
+17.08333	0.07143
+18.08333	0.02381
+19.08333	0      
+20.08333	0      
+21.08333  0      
+22.08333  0      
+23.08333  0      
+24.08333  0      
+25.08333  0      
+26.08333  0      
+27.08333  0      
+28.08333  0      
+29.08333  0      
+30.08333  0      
